@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	"gc-mem-exporter/internal/config"
-	"gc-mem-exporter/internal/httpapi"
-	"gc-mem-exporter/internal/metrics"
+	"github.com/MarmulevSemyon/go-gc-memory-exporter/internal/config"
+	"github.com/MarmulevSemyon/go-gc-memory-exporter/internal/httpapi"
+	"github.com/MarmulevSemyon/go-gc-memory-exporter/internal/metrics"
 )
 
 const shutdownTimeout = 5 * time.Second

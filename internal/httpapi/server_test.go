@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"gc-mem-exporter/internal/metrics"
+	"github.com/MarmulevSemyon/go-gc-memory-exporter/internal/metrics"
 )
 
 func TestHealth(t *testing.T) {

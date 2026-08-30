@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gc-mem-exporter/internal/metrics"
+	"github.com/MarmulevSemyon/go-gc-memory-exporter/internal/metrics"
 )
 
 const prometheusContentType = "text/plain; version=0.0.4; charset=utf-8"
